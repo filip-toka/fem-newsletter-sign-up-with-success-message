@@ -1,0 +1,14 @@
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 1rem;
+    text-align: center;
+    width: 100%;
+    font-weight: 700;
+}
+
+.btn--primary {
+    background-color: var(--color-dark-slate-grey);
+    color: white;
+}

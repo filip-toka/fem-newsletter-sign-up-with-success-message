@@ -1,0 +1,35 @@
+@use "../abstracts/mixins" as *;
+
+dialog[open].dialog-modal  {
+    display: flex;
+}
+
+.dialog-modal {
+    flex-direction: column;
+    justify-content: space-between;
+    border: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 10rem;
+
+    &::backdrop {
+        background-color: white;
+    }
+
+    &__subscriber-email {
+        font-weight: 700;
+    }
+}
+
+@include mediaQuery {
+    .dialog-modal {
+        border-radius: 20px;
+        max-width: 440px;
+        height: fit-content;
+        padding: 3rem;
+
+        &::backdrop {
+            background-color: var(--color-charcoal-grey);
+        }
+    }
+}

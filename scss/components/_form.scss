@@ -1,0 +1,30 @@
+@use "../abstracts/mixins" as *;
+
+.form-newsletter {
+    margin: 2rem 0;
+
+    &__label {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: var(--color-dark-slate-grey);
+        font-size: 14px;
+        font-weight: 700;
+        margin-bottom: .4rem;
+    }
+
+    &__input {
+        border-radius: 5px;
+        border: 1px solid var(--color-grey);
+        width: 100%;
+        padding: 1rem;
+
+        &.error {
+            border: 1px solid red;
+        }
+    }
+}
+
+.form-error {
+    color: red;
+}

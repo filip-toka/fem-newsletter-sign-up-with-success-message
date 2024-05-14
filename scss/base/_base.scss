@@ -1,0 +1,51 @@
+
+@use "../abstracts/mixins" as *;
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: white;
+}
+
+p {
+    line-height: 1.5;
+    margin-bottom: 2rem;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.bg-image {
+    background-image: url('../images/illustration-sign-up-mobile.svg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    width: 100%;
+    height: 284px;
+}
+
+.mt-1 {
+    margin-top: 1rem;
+}
+
+@include mediaQuery {
+    body {
+        background-color: var(--color-charcoal-grey);
+    }
+
+    .bg-image {
+        background-image: url('../images/illustration-sign-up-desktop.svg');
+        object-fit: contain;
+        height: 593px;
+        border-radius: 10px;
+    }
+}

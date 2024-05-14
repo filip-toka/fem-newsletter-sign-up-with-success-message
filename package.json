@@ -1,0 +1,18 @@
+{
+  "name": "fem-newsletter-sign-up-with-success-message",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "sass:watch": "sass --watch scss/main.scss main.css",
+    "deploy": "gh-pages -d dist -m 'Deploy on gh-pages'"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1",
+    "sass": "^1.77.1",
+    "vite": "^5.2.0"
+  }
+}
