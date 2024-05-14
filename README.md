@@ -12,8 +12,6 @@ This is a solution to the [Newsletter sign-up form with success message challeng
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -30,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL](https://github.com/filip-toka/fem-fylo-landing-page-with-two-column-layout)
-- Live Site URL: [Live site URL](https://filip-toka.github.io/fem-fylo-landing-page-with-two-column-layout)
+- Solution URL: [Solution URL](https://github.com/filip-toka/fem-newsletter-sign-up-with-success-message)
+- Live Site URL: [Live site URL](https://filip-toka.github.io/fem-newsletter-sign-up-with-success-message)
 
 ## My process
 
@@ -41,10 +39,6 @@ Users should be able to:
 - CSS - SASS
 - Mobile-first workflow
 - Vite - Vanilla JS
-
-### Useful resources
-
-- [Bootstrap](https://getbootstrap.com) - Helped me with inspiration on sr-only class.
 
 ## Author
 
