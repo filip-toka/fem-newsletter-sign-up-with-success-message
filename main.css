@@ -110,6 +110,7 @@ h2 {
 .btn {
   cursor: pointer;
   display: inline-block;
+  border: 0;
   border-radius: 5px;
   padding: 1rem;
   text-align: center;
@@ -120,6 +121,10 @@ h2 {
 .btn--primary {
   background-color: var(--color-dark-slate-grey);
   color: white;
+}
+.btn--primary:hover {
+  background-color: var(--color-tomato);
+  box-shadow: var(--color-tomato) 0px 25px 40px -12px;
 }
 
 .form-newsletter {
